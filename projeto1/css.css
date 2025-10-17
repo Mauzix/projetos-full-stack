@@ -1,3 +1,9 @@
+
+:root{
+    font-family: "Alice", serif;
+    --cor-primaria:#291B1A;
+    --cor-secundaria:#573A37;
+}
 *{
     margin: 0;
     padding: 0;
@@ -14,3 +20,18 @@ body{
     margin: 48px auto;
     border-radius: 24px;
 }
+h1,h2,h3{
+    color: var(--cor-primaria);
+    line-height: 150%;
+}
+h1{
+    line-height: 140%;
+}
+p{
+    color: var(--cor-secundaria);
+}
+ul{
+      margin: 8px 0 18px 18px;
+      padding-left: 8px;
+    }
+    li{ margin-bottom:6px; color: var(--cor-secundaria); }
