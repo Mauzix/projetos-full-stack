@@ -17,5 +17,9 @@
     --text-color-secondary:#6C6C6C;
     /*tipografia*/
     --font-family: "Poppins", sans-serif;
+    --text-lg:32px/125% bold var(--font-family);
+    --text-md:14px/170%  var(--font-family);
+    --text-sm:12px/170% var(--font-family);
+    --text:16px/1.5 var(--font-family);
 
 }
