@@ -10,6 +10,12 @@
     text-align: justify;
     justify-content:space-between;
 }
+.perfil > img{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .perfil > div{
     width: 592px; ;
 }
