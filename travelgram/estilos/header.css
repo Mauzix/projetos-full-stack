@@ -1,0 +1,36 @@
+.container{
+    padding-block: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: justify;
+    justify-content:space-between;
+}
+.perfil > div{
+    width: 592px; ;
+}
+.perfil  p{
+        font:var(--text-md) ;
+        color: var(--text-color-secondary);
+        width: 384px;
+}
+.perfil  h1{
+    font-family: var(--font-family);
+    
+}
+.perfil ul{
+    display: flex;
+    flex-direction: column;
+}
+.perfil li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.perfil ul img{
+    width: 24px;
+}

@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 600px;
+    gap: 24px;
+    padding-block: 24px;
+    
+
+}
+main img{
+    width: 248px;
+    height: 248px;
+    /* border-radius: 200px; */
+    flex: 2 2 248px;
+    object-fit: cover;
+
+}
