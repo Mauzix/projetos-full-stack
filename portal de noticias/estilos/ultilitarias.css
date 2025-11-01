@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+}
+.grid-auto-flow{
+    grid-auto-flow: column;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-block:32px ;
+}
+.gap16{
+    gap: 16px;
+}
+.grid-coll-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.borda{
+    border-radius: 10px;
+}
